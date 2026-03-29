@@ -6,7 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Um ERP voltaro para o gerenciamento de lojas, permite cadastro de produtos, clientes e vendas e controle de acesso por empresa. Idealmente desenvolvido pensando em uma concessionária, mas flexivel para outros setores.
+Um ERP voltaro para o gerenciamento de lojas, permite cadastro de produtos, clientes, vendas e controle de acesso por empresa. Idealmente desenvolvido pensando em uma concessionária, mas flexivel para outros setores.
 
 ## Tecnologias
 
@@ -30,7 +30,7 @@ Authorization: Bearer <token>
 | Endpoint            | Acesso    | Descrição                               |
 |---------------------|-----------|-----------------------------------------|
 | POST /auth/login    | Público   | Retorna JWT                             |
-| POST /auth/register | DEVELOPER | Cria usuário ADMIN vinculado a empresa  |
+| POST /auth/register | Developer | Cria usuário ADMIN vinculado a empresa  |
 
 ## Perfis de acesso
 
@@ -47,7 +47,7 @@ Todos os dados são isolados por empresa — cada usuário só acessa registros 
 - **Company** — cadastro de empresas
 - **User** — usuários vinculados a uma empresa
 - **Customer** — clientes
-- **Product** — produtos náuticos
+- **Product** — produtos com preço e estoque
 - **Sale** — vendas com itens e cálculo automático de valor total
 
 ## Configuração
