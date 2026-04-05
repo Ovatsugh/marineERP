@@ -1,0 +1,4 @@
+services:
+  spring-boot-app:
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
